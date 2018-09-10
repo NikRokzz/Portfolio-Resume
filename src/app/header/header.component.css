@@ -1,0 +1,25 @@
+#headerwrap {
+    background: url(../../assets/back.jpg);
+    min-height: 650px;
+    margin-top: -70px;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    padding-top: 250px;
+}
+
+#headerwrap h1, h4 {
+    color: white;
+}
+
+#headerwrap h1 {
+    font-size: 80px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+#headerwrap h4 {
+    font-weight: 400;
+}

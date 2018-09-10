@@ -1,0 +1,25 @@
+#workwrap {
+    background: url('../../assets/work.jpg');
+    min-height: 550px;
+    margin-top: -70px;
+    background-size: cover;
+    background-position: center top;
+    text-align: center;
+    padding-top: 250px;
+}
+
+#workwrap h1, h4 {
+    color: white;
+}
+
+#workwrap h1 {
+    font-size: 80px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+#workwrap h4 {
+    font-weight: 400;
+}

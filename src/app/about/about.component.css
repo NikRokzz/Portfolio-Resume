@@ -1,0 +1,9 @@
+#aboutwrap {
+    background: url('../../assets/about.jpg');
+    min-height: 550px;
+    margin-top: -70px;
+    background-size: cover;
+    background-position: center bottom;
+    text-align: center;
+    padding-top: 250px;
+}

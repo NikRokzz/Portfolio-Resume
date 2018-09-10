@@ -1,0 +1,27 @@
+
+#contactwrap {
+    background: url('../../assets/contact.jpg');
+    background-size: cover;
+    text-align: center;
+    padding-top: 250px;
+    margin-top: -70px;
+    min-height: 650px;
+    background-size: cover;
+    background-position: center center;
+}
+
+#contactwrap h1, h4 {
+    color: white;
+}
+
+#contactwrap h1 {
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+#contactwrap h4 {
+    font-weight: 400;
+}
