@@ -1,0 +1,1 @@
+https://templatemag.com/demo/Instant/
