@@ -8,6 +8,7 @@
     padding-top: 250px;
 }
 
+
 #workwrap h1, h4 {
     color: white;
 }
@@ -22,4 +23,8 @@
 
 #workwrap h4 {
     font-weight: 400;
+}
+
+#works + .container h4 {
+    color: black;
 }
