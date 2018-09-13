@@ -1,8 +1,50 @@
 /* Gallery */
 .gallery {
-	margin-top: 30px;
+  margin-top: 30px;
 }
 
 .gallery img:hover {
-	opacity: 0.4;
+  opacity: 0.4;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.containerTeam {
+  padding: 0 16px;
+}
+
+.containerTeam >.title {
+  color: grey;
+}
+
+.containerTeam::after, .row::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+
+.containerTeam .button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.containerTeam .button:hover {
+  background-color: #555;
+}
+
+#team1 {
+  background: url('../../assets/vrushabh.jpg');
+  max-height: 100px;
 }

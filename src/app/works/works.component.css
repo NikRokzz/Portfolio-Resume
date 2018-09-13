@@ -1,19 +1,31 @@
-#workwrap {
-    background: url('../../assets/work.jpg');
+#workwrapews{
+    background:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('../../assets/ews_bg.jpg');
+}
+
+#workwrapels{
+    background:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('../../assets/else_bg.jpg');
+}
+
+#workwraplp{
+    background:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('../../assets/legal_bg.jpg');
+}
+
+#workwrapews, #workwrapels, #workwraplp {
+    /* background:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('../../assets/else_bg.jpg'); */
     min-height: 550px;
     margin-top: -70px;
     background-size: cover;
     background-position: center top;
     text-align: center;
     padding-top: 250px;
+    background-repeat: no-repeat;
 }
 
-
-#workwrap h1, h4 {
+#workwrapews h1, h4 , #workwrapels h1, h4, #workwraplp h1, h4 {
     color: white;
 }
 
-#workwrap h1 {
+#workwrapews h1, #workwrapels h1, #workwraplp h1 {
     font-size: 80px;
     font-weight: bold;
     letter-spacing: 4px;
@@ -21,7 +33,7 @@
     padding-bottom: 20px;
 }
 
-#workwrap h4 {
+#workwrapews h4, #workwrapels h4, #workwraplp h4 {
     font-weight: 400;
 }
 
