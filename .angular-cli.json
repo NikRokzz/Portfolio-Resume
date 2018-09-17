@@ -25,7 +25,11 @@
       ],
       "scripts": [
         "../node_modules/jquery/dist/jquery.js",
-        "../node_modules/bootstrap/dist/js/bootstrap.js"
+        "../node_modules/bootstrap/dist/js/bootstrap.js",
+        "../node_modules/typed.js/src/defaults.js",
+        "../node_modules/typed.js/src/html-parser.js",
+        "../node_modules/typed.js/src/initializer.js",
+        "../node_modules/typed.js/src/typed.js"
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {
